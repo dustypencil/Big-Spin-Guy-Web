@@ -1,0 +1,228 @@
+h1 {font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.45vw;
+    text-decoration: none;}
+
+h2 {font-family: sans-serif;
+    font-weight: bold;
+    color: white(0, 0, 0);
+    font-size: 2.96vw;
+    text-decoration: none;}
+
+h3 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 2.96vw;
+  text-decoration: none;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 1.77vw;
+  text-decoration: none;
+}
+
+h5 {font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 5.62vw;
+  text-decoration: none;
+  text-align: left;}
+
+
+h6 {font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 4.73vw;
+  text-decoration: none;
+  position: static;
+  bottom: 0;
+  left: 0;}
+  
+
+a {text-decoration: none;}
+
+
+
+.bg-1 {
+  background-image: url('fellasathubba.jpg');
+  background-position-y: -8.28vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-2 {
+  background-image: url('devbuckflip.jpg'), url('kaianddev.jpg');
+  background-position: left top, right top;
+  background-position-y: -11.83vw, -11.83vw;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50% auto, 50% auto;
+}
+
+.bg-3 {
+  background-image: url('samglaying.jpg');
+  background-position-y: -11.83vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65.05vw;
+  text-align: center;
+  position: sticky;
+}
+
+.bg-4 {
+  background-image: url('hollywoodfbf.jpg');
+  background-position-y: -8.87vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65.05vw;
+}
+
+.bg-5 {
+  background-image: url('devbotsitting.jpg');
+  background-position-y: -8.87vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*.instalogo {
+  width: 100%;
+  height: 100%;
+} */
+
+header {
+    position: absolute;
+    z-index: 2;
+  }
+  
+.header-img {
+   position: absolute;
+   top: 0.89vw;
+   left: 2.96vw;
+}
+
+
+.logo:hover {
+    content: url("bsgpurpletrans.png");}
+
+.menu	{
+  text-align: center;
+  width: 100%;
+  border-radius: 2.96vw;
+  padding: 0.59vw 0; /* check this */
+  top: 1.18vw;
+  position: relative;
+  z-index: 1;}
+  
+.menuicon {
+    padding-right: 1.18vw;}
+    
+          
+.menuicon a:hover h1 {
+      color: rgb(127, 0, 224);
+      text-decoration: none;
+      font-weight: bold;
+    }
+  
+.menu a {
+      color: white;
+      text-decoration: none; 
+  }
+
+    
+.menuiconright {
+      text-align: right;
+      padding-right: 0.30vw;
+    }
+  
+  
+#ig-logo:hover {
+      content: url("coloriglogo.png");
+  }
+
+body {
+  opacity: 0;
+  transform: translateY(1.18vw);  
+  transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+  z-index: 3;
+  }
+
+
+body.fade-in {
+  opacity: 1;
+  transform: none;
+}
+
+
+img		{border-color: transparent;
+    box-shadow: none;}
+
+table	{width: 65%;
+    margin-left: auto; 
+    margin-right: auto;
+    border-color: white;
+    border-style: ridge;
+    border-width: 0vw;
+    z-index: 1;
+    margin-bottom: 0;}
+
+.centered-table {
+    display: inline-block;
+    text-align: center;}
+
+.right-aligned-table {
+      display: inline-block;
+        text-align: center;}
+
+.table-container {
+    margin-bottom: 1.18vw;
+    }
+
+
+
+/* table format for profiles */
+
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.column-right {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
+.text-column {
+  text-align: center;
+  padding-left: 1.18vw; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+th		{color: white; 
+		background-color: #757775;}
+
+tr.stripe	{background-color: white;}
+	 
+td.bolder	{font-weight: bold;}
+
+caption	{caption-side: bottom;
+		font-style: italic;}
